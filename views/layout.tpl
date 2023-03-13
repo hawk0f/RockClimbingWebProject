@@ -23,7 +23,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="/home">Home</a></li>
-                    <li><a href="/about">About</a></li>
+                    <li><a href="/about">About club</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
@@ -37,6 +37,7 @@
             <p>&copy; {{ year }} - Our Rockclimbing Club</p>
         </footer>
     </div>
+
 
     <script src="/static/scripts/jquery-1.10.2.js"></script>
     <script src="/static/scripts/bootstrap.js"></script>
