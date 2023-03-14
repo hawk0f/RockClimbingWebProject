@@ -24,6 +24,7 @@
                     <li><a href="/home" class="navbar-brand">Alpacas</a></li>
                     <li><a href="/about">About club</a></li>
                     <li><a href="/contact">Contact</a></li>
+                    <li><a href="/price">Price</a></li>
                 </ul>
             </div>
         </div>
