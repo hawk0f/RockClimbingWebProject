@@ -18,11 +18,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <p class="navbar-brand">Alpacas</p>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/home">Home</a></li>
+                    <li><a href="/home" class="navbar-brand">Alpacas</a></li>
                     <li><a href="/about">About club</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
@@ -30,14 +29,18 @@
         </div>
     </div>
 
-    <div class="container body-content">
-        {{!base}}
-        <hr />
-        <footer>
-            <p>&copy; {{ year }} - Our Rockclimbing Club</p>
-        </footer>
+    <div class="containerMainDiv">
+        <div class="container left"></div>
+        <div class="container body-content">
+            {{!base}}
+            <hr/>
+            <footer>
+                <p>&copy; {{ year }} - Our Rockclimbing Club</p>
+            </footer>
+        </div>
+        <div class="right"></div>
     </div>
-
+    
 
     <script src="/static/scripts/jquery-1.10.2.js"></script>
     <script src="/static/scripts/bootstrap.js"></script>

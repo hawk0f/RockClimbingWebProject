@@ -54,6 +54,57 @@ a:active, a:hover {
     outline: 0
 }
 
+.centerMain {
+    text-align: center;
+}
+
+.centralBlock {
+    min-height: 100vh;
+    background: #F4FFFF;
+}
+
+.containerMainDiv {
+    display: table;
+    display: flex;
+    min-height: 100vh;
+}
+
+    .containerMainDiv .left {
+        display: table-cell;
+        flex: 1;
+        background: #E4FEFF;
+    }
+
+    .containerMainDiv .right {
+        display: table-cell;
+        flex: 1;
+        background: #E4FEFF;
+    }
+
+    .containerMainDiv .body-content {
+        display: table-cell;
+        flex: 2.5;
+        background: #F4FFFF;
+    }
+
+.img-name {
+    display: inline;
+}
+
+    .img-name img {
+        display: block;
+        float: left;
+        width: 170px;
+        height: 170px;
+        margin-top: -40px;
+        /*vertical-align: middle;*/
+    }
+
+    .img-name h1 {
+        line-height: 1;
+        color: inherit;
+    }
+
 h1 {
     margin: .67em 0;
     font-size: 2em
@@ -679,7 +730,7 @@ pre {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
     .container:before, .container:after {
@@ -701,10 +752,21 @@ pre {
     }
 
 .row {
-    margin-right: -15px;
-    margin-left: -15px
+    display: flex;
 }
 
+    .row .firstDiv {
+        flex: 1;
+    }
+
+    .row .secondDiv {
+        flex: 1;
+    }
+
+    .row .thirdDiv {
+        flex: 1;
+    }
+
     .row:before, .row:after {
         display: table;
         content: " "
@@ -722,6 +784,25 @@ pre {
     .row:after {
         clear: both
     }
+
+.btn-center {
+    text-align: center;
+}
+
+.firstDiv h2 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.secondDiv h2 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.thirdDiv h2 {
+    font-size: 26px;
+    text-align: center;
+}
 
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     position: relative;
@@ -1915,14 +1996,13 @@ textarea.input-lg {
 
 .btn-primary {
     color: #fff;
-    background-color: #428bca;
-    border-color: #357ebd
+    background-color: #9400D3;
+    opacity: 0.5;
 }
 
     .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
         color: #fff;
-        background-color: #3276b1;
-        border-color: #285e8e
+        opacity: 1;
     }
 
     .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
@@ -1931,7 +2011,7 @@ textarea.input-lg {
 
     .btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
         background-color: #428bca;
-        border-color: #357ebd
+        border-color: #fff
     }
 
 .btn-warning {
@@ -4481,16 +4561,16 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
     font-weight: 200;
     line-height: 2.1428571435;
     color: inherit;
-    background-color: #eee
 }
 
     .jumbotron h1 {
         line-height: 1;
-        color: inherit
+        color: inherit;
     }
 
     .jumbotron p {
-        line-height: 1.4
+        line-height: 1.4;
+        text-align: center;
     }
 
 .container .jumbotron {

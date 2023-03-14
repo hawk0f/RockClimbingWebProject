@@ -16,10 +16,10 @@ How to find us?
 <address>
  <br />
   <br />
-    <strong>Adress:</strong> Moskovsky Prospekt 149B <br />
+    <strong>Address:</strong> Moskovsky Prospekt 149B <br />
     <strong>Metro:</strong> Electrosila<br/> <br/>
-    <p>Concat us!</p>
+    <p>Contact us!</p>
     <strong>Phone: </strong> +7(952)-239-95-35 <br />
     <strong>Git Sofa:</strong> <a href="https://github.com/sofaackingsad">https://github.com/sofaackingsad</a> <br />
-    <strong>Git Misha:</strong> <a href="https://github.com/hawk0f">https://github.com/sofaackingsad</a>
+    <strong>Git Misha:</strong> <a href="https://github.com/hawk0f">https://github.com/hawk0f</a>
 </address>
